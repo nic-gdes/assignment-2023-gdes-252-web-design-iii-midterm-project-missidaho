@@ -17,6 +17,16 @@ body {
     color: #413939;
 }
 
+/* --body style-- */
+
+.background_two {
+    background-color: #F4E2D6;
+}
+
+body {
+    background-color: #F7F1ED;
+    margin: 0;
+}
 /* --div-- */
 
 .flex_wrapper_align_center {
@@ -30,4 +40,15 @@ body {
     flex-direction: column;
     align-content: flex-start;
     padding: 1rem;
+}
+
+.border_above {
+    border-top: #98002E solid 2px;
+    
+}
+
+/* --padding-- */
+
+.padding_above {
+    padding-top: 5rem;
 }
