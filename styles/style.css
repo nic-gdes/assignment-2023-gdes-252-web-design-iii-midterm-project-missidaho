@@ -19,7 +19,7 @@ body {
 
 /* --body style-- */
 
-.background_two {
+.background_two_content {
     background-color: #F4E2D6;
 }
 
@@ -136,6 +136,12 @@ h1 {
     width: 187.5px;
 }
 
+.gdes-classroom {
+    width: 100%; 
+    height: auto; 
+    display: block;
+}
+
 /* --media query 1320px-- */
 @media screen and (max-width: 1320px) {
 
@@ -183,7 +189,7 @@ h1 {
             display: grid;
             padding-left: 4rem;
             padding-right: 4rem;
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: .5fr .5fr .5fr;
         }
         .AI_pizza {
             grid-column: 2/6;
@@ -195,6 +201,23 @@ h1 {
             grid-column: 1/2;
         }
 
-
+        /* --part 2 content witha different background color-- */
+        .background_two_content {
+            display: flex;
+            padding-left: 8rem;
+            padding-right: 8rem;
+            align-items: center;
+            justify-content: center;
+            width: fit-content;
+        }
+        .gdes-classroom
+        .Nasa_pic
+        .coffee_pic
+        .AI_pizza {
+            width: 100%; 
+            height: auto; 
+            display: block;
+        }
+     
 
 }
