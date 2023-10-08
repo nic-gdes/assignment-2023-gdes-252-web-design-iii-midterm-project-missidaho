@@ -27,6 +27,11 @@ body {
     background-color: #F7F1ED;
     margin: 0;
 }
+
+.footer_background {
+    background-color: #98002E;
+    color: white;
+}
 /* --div-- */
 
 .flex_wrapper_align_center {
@@ -52,3 +57,40 @@ body {
 .padding_above {
     padding-top: 5rem;
 }
+
+/* --pills-- */
+
+.pills {
+    color: white;
+    text-decoration: none;
+    background-color: #98002E;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.pills a:hover {
+    background-color:#F4E2D6;
+    border-color:#98002E;
+    color: white;
+}
+
+.nav_pills {
+    background-color: #98002E;
+    color: white;
+    padding: .5rem;
+    border-radius: 25px;
+    text-decoration: none;
+
+}
+
+.pills_disabled {
+    pointer-events: none;
+    cursor: default;
+    color:#98002E;
+    padding: .5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    border: #98002E solid;
+  }
