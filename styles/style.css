@@ -26,6 +26,7 @@ body {
 body {
     background-color: #F7F1ED;
     margin: 0;
+    width: 0 auto;
 }
 
 .footer_background {
@@ -80,6 +81,7 @@ h1 {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
+
 /* --pills-- */
 
 .pills {
@@ -149,6 +151,9 @@ h1 {
     .computer_icon {
         display: none;
     }
+    .microchip_pic {
+        padding-top: 3rem;
+    }
 }
 
 
@@ -160,11 +165,27 @@ h1 {
         .border_above {
             border: none;
         }
+        h2 {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        h3 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        /* --body-- */
+        body,
+        header {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+        }
         /* --nav-- */
         .computer_icon {
             display: flex;
             justify-content: flex-end;
-            width: 100vw;
+            width: 65vw;
             /* padding-right: 2rem; */
         }
         .nav_wrapper {
@@ -189,7 +210,9 @@ h1 {
             display: grid;
             padding-left: 4rem;
             padding-right: 4rem;
+            padding-bottom: 4rem;
             grid-template-columns: .5fr .5fr .5fr;
+            padding-top: 2rem;
         }
         .AI_pizza {
             grid-column: 2/6;
@@ -204,20 +227,84 @@ h1 {
         /* --part 2 content witha different background color-- */
         .background_two_content {
             display: flex;
-            padding-left: 8rem;
-            padding-right: 8rem;
+            padding-left: 18rem;
+            padding-right: 18rem;
             align-items: center;
             justify-content: center;
             width: fit-content;
         }
-        .gdes-classroom
+        .gdes-classroom {
+            height: 80%;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
         .Nasa_pic
         .coffee_pic
-        .AI_pizza {
+        .AI_pizza
+        .microchip_pic {
             width: 100%; 
             height: auto; 
             display: block;
         }
-     
+        .microchip_pic {
+            padding-top: none;
+        }
+        .border_h2 {
+            margin-top: none;
+            }
 
+}
+
+@media screen and (min-width: 1920px) {
+    
+    /* --nav-- */
+    .nav_wrapper {
+        display: flex;
+        width: 100vw;
+        padding: 16rem;
+        padding-top: 6rem;
+    }
+
+
+    /* --grid-- */
+    .content_body {
+        display: grid;
+        padding-left: 16rem;
+        padding-right: 16rem;
+        padding-bottom: 4rem;
+        grid-template-columns: .5fr .5fr .5fr;
+        padding-top: 2rem;
+    }
+    .AI_pizza {
+        grid-column: 2/3;
+    }
+    .internet {
+        grid-column: 1/2;
+        grid-row: 2;
+    }
+    .NASA {
+        grid-column: 3/4;
+    }
+    .COFFEE {
+        grid-column: 2/6;
+        grid-row: 2;
+        display: flex;
+        flex-direction: row;
+        background-color: #98002E;
+        /* padding-left: 0;
+        padding-bottom: 0;
+        padding-top: 0; */
+        padding: 0;
+    }
+    .desktop_coffee {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding: 2rem;
+    }
+    .desktop_coffee_header {
+        color: white;
+        
+
+    }
 }
