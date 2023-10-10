@@ -27,6 +27,8 @@ body {
     background-color: #F7F1ED;
     margin: 0;
     width: 0 auto;
+    padding: 0;
+    /* max-width: 1400px; */
 }
 
 .footer_background {
@@ -93,11 +95,6 @@ h1 {
     border-radius: 25px;
 }
 
-.pills a:hover {
-    background-color:#F4E2D6;
-    border-color:#98002E;
-    color: white;
-}
 
 .nav_pills {
     background-color: #98002E;
@@ -121,6 +118,11 @@ h1 {
   .big_pill_wrapper {
     display: flex;
     justify-content: center;
+  }
+  .big_pill_wrapper a:hover {
+    background-color:#F4E2D6;
+    border: #98002E solid 2px;
+    color: #98002E;
   }
 
   .nav_pill_wrapper {
@@ -264,7 +266,9 @@ h1 {
         padding: 16rem;
         padding-top: 6rem;
     }
-
+    .nav_logo {
+        width: 500px;
+    }
 
     /* --grid-- */
     .content_body {
@@ -272,8 +276,9 @@ h1 {
         padding-left: 16rem;
         padding-right: 16rem;
         padding-bottom: 4rem;
-        grid-template-columns: .5fr .5fr .5fr;
+        grid-template-columns: .5fr 1fr 2fr;
         padding-top: 2rem;
+        width: 90%;
     }
     .AI_pizza {
         grid-column: 2/3;
@@ -307,4 +312,32 @@ h1 {
         
 
     }
+  
+    .AI_pizza {
+        width: 90%; 
+        height: auto; 
+        display: block;
+    }
+    /* --part 2-- */
+
+    .background_two_content {
+     
+        width: 95%;
+        /* padding: 2rem; */
+        
+    }
+    .desktop_part_2 {
+        /* padding: 16rem; */
+        width: 900px;
+        display: flex;
+        justify-content: center;
+    }
+    .gdes-classroom {
+        width: 90%;
+        display: block;
+        height: auto;
+    }
+
+    --footer--
+
 }
