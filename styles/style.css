@@ -171,6 +171,7 @@ h1 {
     display: block;
 }
 
+
 /* --media query 1320px-- */
 @media screen and (max-width: 1320px) {
 
@@ -184,8 +185,35 @@ h1 {
     .flex_start2 {
         margin: 1rem;
     }
+    .microchip_pic {
+        padding-top: 3rem;
+    }
 
 }
+
+
+
+/* --media query 700px-- */
+@media screen and (min-width: 700px) {
+    .flex_start {
+        padding: 4rem;
+    }
+    .flex_start2 {
+        margin: 4rem;
+    }
+}
+
+
+/* --media query 1100px-- */
+@media screen and (min-width: 700px) {
+    .flex_start {
+        padding: 8rem;
+    }
+    .flex_start2 {
+        margin: 8rem;
+    }
+}
+
 
 
 /* --media query 1320px-- */
