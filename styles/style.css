@@ -154,6 +154,11 @@ h1 {
     height: auto; 
     display: block;
 }
+/* .computer_icon {
+    background-image: url("computer-icon.png");
+    background-position: cover;
+    background-repeat: no-repeat;
+} */
 
 /* --pics-- */
 
@@ -223,8 +228,8 @@ h1 {
         .computer_icon {
             display: flex;
             justify-content: flex-end;
-            width: 95%;
-            /* padding-right: 2rem; */
+            width: 90%;
+            padding-right: 2rem;
         }
         .nav_wrapper {
             display: flex;
@@ -325,11 +330,8 @@ h1 {
     }
     .computer_icon {
         justify-content: flex-end;
-        width: 60%;
+        width: 90%;
         /* padding-right: 2rem; */
-        background-color: url("computer-icon.png");
-        background-position: cover;
-        background-repeat: no-repeat;
     }
 
     /* --grid-- */
